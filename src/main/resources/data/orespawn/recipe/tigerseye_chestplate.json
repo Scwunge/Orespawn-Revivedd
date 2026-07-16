@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "Y": { "item": "orespawn:tigerseye_ingot" } },
+  "pattern": ["Y Y","YYY","YYY"],
+  "result": { "count": 1, "id": "orespawn:tigerseye_chestplate" }
+}

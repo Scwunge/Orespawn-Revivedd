@@ -1,0 +1,13 @@
+{
+    "cookingtime":  200,
+    "experience":  0.4,
+    "ingredient":  {
+                       "item":  "orespawn:corndog_raw"
+                   },
+    "type":  "minecraft:smelting",
+    "category":  "food",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:corndog_cooked"
+               }
+}

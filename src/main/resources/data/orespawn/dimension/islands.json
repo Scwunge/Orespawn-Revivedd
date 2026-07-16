@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:islands",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:islands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:islands"
+    }
+  }
+}

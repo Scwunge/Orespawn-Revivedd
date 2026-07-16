@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:peach"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:peachtree_seed"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

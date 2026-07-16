@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:extreme",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:extreme",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:extreme"
+    }
+  }
+}

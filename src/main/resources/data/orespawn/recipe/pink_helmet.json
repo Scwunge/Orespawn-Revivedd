@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "Y": { "item": "orespawn:crystal_pink_ingot" } },
+  "pattern": ["YYY","Y Y"],
+  "result": { "count": 1, "id": "orespawn:pink_helmet" }
+}

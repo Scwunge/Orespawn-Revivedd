@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Y": {
+      "item": "minecraft:emerald"
+    },
+    "Z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "YY ",
+    "YZ ",
+    " Z "
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn:emerald_axe"
+  }
+}

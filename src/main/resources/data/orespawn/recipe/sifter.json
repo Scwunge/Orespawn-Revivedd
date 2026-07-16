@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "R":  {
+                          "item":  "minecraft:stick"
+                      },
+                "A":  {
+                          "item":  "minecraft:string"
+                      }
+            },
+    "pattern":  [
+                    "RRR",
+                    "RAR",
+                    "RRR"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:sifter"
+               }
+}

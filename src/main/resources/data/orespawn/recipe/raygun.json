@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:diamond_block"
+                        }
+                    ],
+    "category":  "equipment",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:raygun"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

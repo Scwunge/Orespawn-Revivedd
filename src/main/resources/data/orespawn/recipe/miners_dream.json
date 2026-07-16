@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "minecraft:snow_block" },
+    "R": { "item": "minecraft:beacon" },
+    "G": { "item": "minecraft:gunpowder" }
+  },
+  "pattern": [
+    "CCC",
+    "RRR",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn:miners_dream"
+  }
+}

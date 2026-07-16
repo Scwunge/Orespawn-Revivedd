@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "C":  {
+                          "item":  "minecraft:cobblestone"
+                      },
+                "G":  {
+                          "item":  "minecraft:gunpowder"
+                      }
+            },
+    "category":  "misc",
+    "pattern":  [
+                    " C ",
+                    " C ",
+                    "GC "
+                ],
+    "result":  {
+                   "count":  8,
+                   "id":  "orespawn:step_down"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

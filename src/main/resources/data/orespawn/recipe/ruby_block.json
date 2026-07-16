@@ -1,0 +1,18 @@
+{
+    "key":  {
+                "T":  {
+                          "item":  "orespawn:ruby"
+                      }
+            },
+    "category":  "misc",
+    "pattern":  [
+                    "TTT",
+                    "TTT",
+                    "TTT"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:ruby_block"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,16 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:crystal_coal"
+                        },
+                        {
+                            "item":  "orespawn:crystal_sticks"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:crystal_torch"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

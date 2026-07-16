@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:egg" },
+    { "item": "orespawn:horse_ore" }
+  ],
+  "result": { "count": 1, "id": "minecraft:horse_spawn_egg" }
+}

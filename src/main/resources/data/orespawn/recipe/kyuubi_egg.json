@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:egg" },
+    { "item": "orespawn:kyuubi_ore" }
+  ],
+  "result": { "count": 1, "id": "orespawn:kyuubi_egg" }
+}

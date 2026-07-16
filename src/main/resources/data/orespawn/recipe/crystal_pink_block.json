@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["###","###","###"],
+  "key": { "#": { "item": "orespawn:crystal_pink_ingot" } },
+  "result": { "id": "orespawn:crystal_pink_block", "count": 1 }
+}

@@ -1,0 +1,25 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:raygun"
+                        },
+                        {
+                            "item":  "orespawn:bighammer"
+                        },
+                        {
+                            "item":  "orespawn:mantis_claw"
+                        },
+                        {
+                            "item":  "orespawn:waterdragonscale"
+                        },
+                        {
+                            "item":  "orespawn:greengoo"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:bbhandle"
+               }
+}

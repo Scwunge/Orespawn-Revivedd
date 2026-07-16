@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": { "item": "orespawn:tigerseye" },
+  "result": { "count": 1, "id": "orespawn:tigerseye_ingot" }
+}

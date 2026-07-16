@@ -1,0 +1,378 @@
+package danger.orespawn.client.model;
+
+import danger.orespawn.entity.Baryonyx;
+import net.minecraft.client.model.HierarchicalModel;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.geom.PartPose;
+import net.minecraft.client.model.geom.builders.CubeListBuilder;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+import net.minecraft.client.model.geom.builders.MeshDefinition;
+import net.minecraft.client.model.geom.builders.PartDefinition;
+import net.minecraft.util.Mth;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
+
+/**
+ * Port of gold {@code ModelBaryonyx} (1.12 ModelBase) → 1.21 HierarchicalModel.
+ */
+@OnlyIn(Dist.CLIENT)
+public class ModelBaryonyx extends HierarchicalModel<Baryonyx> {
+    private final float wingspeed;
+    private final ModelPart root;
+    private final ModelPart Shape27;
+    private final ModelPart Shape28;
+    private final ModelPart Shape29;
+    private final ModelPart Shape30;
+    private final ModelPart Shape31;
+    private final ModelPart Shape32;
+    private final ModelPart Shape33;
+    private final ModelPart Shape34;
+    private final ModelPart Shape35;
+    private final ModelPart Shape36;
+    private final ModelPart Shape37;
+    private final ModelPart Shape38;
+    private final ModelPart Shape39;
+    private final ModelPart Shape40;
+    private final ModelPart Shape41;
+    private final ModelPart Shape42;
+    private final ModelPart Shape43;
+    private final ModelPart Shape44;
+    private final ModelPart Shape45;
+    private final ModelPart Shape46;
+    private final ModelPart Shape47;
+    private final ModelPart Shape48;
+    private final ModelPart Shape49;
+    private final ModelPart Shape50;
+    private final ModelPart Shape51;
+    private final ModelPart Shape1;
+    private final ModelPart Shape2;
+    private final ModelPart Shape3;
+    private final ModelPart Shape4;
+    private final ModelPart Shape5;
+    private final ModelPart Shape6;
+    private final ModelPart Shape7;
+    private final ModelPart Shape8;
+    private final ModelPart Shape9;
+    private final ModelPart Shape10;
+    private final ModelPart Shape11;
+    private final ModelPart Shape12;
+    private final ModelPart Shape13;
+    private final ModelPart Shape14;
+    private final ModelPart Shape15;
+    private final ModelPart Shape16;
+    private final ModelPart Shape17;
+    private final ModelPart Shape18;
+    private final ModelPart Shape19;
+    private final ModelPart Shape20;
+    private final ModelPart Shape21;
+    private final ModelPart Shape22;
+    private final ModelPart Shape23;
+    private final ModelPart Shape24;
+    private final ModelPart Shape25;
+    private final ModelPart Shape26;
+    private final ModelPart Shape52;
+
+    public ModelBaryonyx(ModelPart root) {
+        this(root, 1.5F);
+    }
+
+    public ModelBaryonyx(ModelPart root, float wingspeed) {
+        this.root = root;
+        this.wingspeed = wingspeed;
+        this.Shape27 = root.getChild("Shape27");
+        this.Shape28 = root.getChild("Shape28");
+        this.Shape29 = root.getChild("Shape29");
+        this.Shape30 = root.getChild("Shape30");
+        this.Shape31 = root.getChild("Shape31");
+        this.Shape32 = root.getChild("Shape32");
+        this.Shape33 = root.getChild("Shape33");
+        this.Shape34 = root.getChild("Shape34");
+        this.Shape35 = root.getChild("Shape35");
+        this.Shape36 = root.getChild("Shape36");
+        this.Shape37 = root.getChild("Shape37");
+        this.Shape38 = root.getChild("Shape38");
+        this.Shape39 = root.getChild("Shape39");
+        this.Shape40 = root.getChild("Shape40");
+        this.Shape41 = root.getChild("Shape41");
+        this.Shape42 = root.getChild("Shape42");
+        this.Shape43 = root.getChild("Shape43");
+        this.Shape44 = root.getChild("Shape44");
+        this.Shape45 = root.getChild("Shape45");
+        this.Shape46 = root.getChild("Shape46");
+        this.Shape47 = root.getChild("Shape47");
+        this.Shape48 = root.getChild("Shape48");
+        this.Shape49 = root.getChild("Shape49");
+        this.Shape50 = root.getChild("Shape50");
+        this.Shape51 = root.getChild("Shape51");
+        this.Shape1 = root.getChild("Shape1");
+        this.Shape2 = root.getChild("Shape2");
+        this.Shape3 = root.getChild("Shape3");
+        this.Shape4 = root.getChild("Shape4");
+        this.Shape5 = root.getChild("Shape5");
+        this.Shape6 = root.getChild("Shape6");
+        this.Shape7 = root.getChild("Shape7");
+        this.Shape8 = root.getChild("Shape8");
+        this.Shape9 = root.getChild("Shape9");
+        this.Shape10 = root.getChild("Shape10");
+        this.Shape11 = root.getChild("Shape11");
+        this.Shape12 = root.getChild("Shape12");
+        this.Shape13 = root.getChild("Shape13");
+        this.Shape14 = root.getChild("Shape14");
+        this.Shape15 = root.getChild("Shape15");
+        this.Shape16 = root.getChild("Shape16");
+        this.Shape17 = root.getChild("Shape17");
+        this.Shape18 = root.getChild("Shape18");
+        this.Shape19 = root.getChild("Shape19");
+        this.Shape20 = root.getChild("Shape20");
+        this.Shape21 = root.getChild("Shape21");
+        this.Shape22 = root.getChild("Shape22");
+        this.Shape23 = root.getChild("Shape23");
+        this.Shape24 = root.getChild("Shape24");
+        this.Shape25 = root.getChild("Shape25");
+        this.Shape26 = root.getChild("Shape26");
+        this.Shape52 = root.getChild("Shape52");
+    }
+
+    public static LayerDefinition createBodyLayer() {
+        MeshDefinition mesh = new MeshDefinition();
+        PartDefinition root = mesh.getRoot();
+        root.addOrReplaceChild("Shape27",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, -10.0F));
+        root.addOrReplaceChild("Shape28",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, -7.0F));
+        root.addOrReplaceChild("Shape29",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, -4.0F));
+        root.addOrReplaceChild("Shape30",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, -1.0F));
+        root.addOrReplaceChild("Shape31",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 2.0F));
+        root.addOrReplaceChild("Shape32",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 5.0F));
+        root.addOrReplaceChild("Shape33",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 8.0F));
+        root.addOrReplaceChild("Shape34",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 11.0F));
+        root.addOrReplaceChild("Shape35",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 14.0F));
+        root.addOrReplaceChild("Shape36",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 17.0F));
+        root.addOrReplaceChild("Shape37",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 20.0F));
+        root.addOrReplaceChild("Shape38",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 23.0F));
+        root.addOrReplaceChild("Shape39",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 26.0F));
+        root.addOrReplaceChild("Shape40",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 29.0F));
+        root.addOrReplaceChild("Shape41",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 32.0F));
+        root.addOrReplaceChild("Shape42",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 35.0F));
+        root.addOrReplaceChild("Shape43",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 38.0F));
+        root.addOrReplaceChild("Shape44",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 41.0F));
+        root.addOrReplaceChild("Shape45",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -17.0F, 44.0F));
+        root.addOrReplaceChild("Shape46",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -12.0F, -11.0F));
+        root.addOrReplaceChild("Shape47",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -13.0F, -13.0F));
+        root.addOrReplaceChild("Shape48",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -15.0F, -15.0F));
+        root.addOrReplaceChild("Shape49",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 1.0F),
+                PartPose.offset(0.0F, -16.0F, -16.0F));
+        root.addOrReplaceChild("Shape50",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 1.0F, 1.0F),
+                PartPose.offset(0.0F, -19.0F, -17.0F));
+        root.addOrReplaceChild("Shape51",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 1.0F, 1.0F),
+                PartPose.offset(0.0F, -19.0F, -19.0F));
+        root.addOrReplaceChild("Shape1",
+                CubeListBuilder.create().texOffs(0, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 10.0F, 17.0F, 25.0F),
+                PartPose.offset(-5.0F, -15.0F, -10.0F));
+        root.addOrReplaceChild("Shape2",
+                CubeListBuilder.create().texOffs(0, 93)
+                        .addBox(-3.0F, 0.0F, -11.0F, 6.0F, 10.0F, 11.0F),
+                PartPose.offsetAndRotation(0.0F, -10.0F, -6.0F, -0.1919862F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape3",
+                CubeListBuilder.create().texOffs(29, 110)
+                        .addBox(-2.0F, -9.0F, -8.0F, 4.0F, 9.0F, 8.0F),
+                PartPose.offsetAndRotation(0.0F, -10.0F, -11.0F, 0.7504916F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape4",
+                CubeListBuilder.create().texOffs(54, 108)
+                        .addBox(0.0F, 0.0F, 0.0F, 6.0F, 7.0F, 12.0F),
+                PartPose.offset(-3.0F, -18.0F, -28.0F));
+        root.addOrReplaceChild("Shape5",
+                CubeListBuilder.create().texOffs(54, 86)
+                        .addBox(0.0F, 0.0F, 0.0F, 3.0F, 6.0F, 15.0F),
+                PartPose.offset(-1.5F, -17.5F, -43.0F));
+        root.addOrReplaceChild("Shape6",
+                CubeListBuilder.create().texOffs(0, 43)
+                        .addBox(0.0F, 0.0F, 0.0F, 8.0F, 11.0F, 8.0F),
+                PartPose.offset(-4.0F, -15.0F, 15.0F));
+        root.addOrReplaceChild("Shape7",
+                CubeListBuilder.create().texOffs(0, 63)
+                        .addBox(0.0F, 0.0F, 0.0F, 6.0F, 6.0F, 23.0F),
+                PartPose.offset(-3.0F, -15.0F, 23.0F));
+        root.addOrReplaceChild("Shape8",
+                CubeListBuilder.create().texOffs(47, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 2.0F, 5.0F, 3.0F),
+                PartPose.offset(5.0F, 0.0F, -7.0F));
+        root.addOrReplaceChild("Shape9",
+                CubeListBuilder.create().texOffs(49, 10)
+                        .addBox(0.0F, 0.0F, 0.0F, 2.0F, 6.0F, 2.0F),
+                PartPose.offsetAndRotation(5.1F, 3.0F, -6.0F, -0.3839724F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape10",
+                CubeListBuilder.create().texOffs(13, 17)
+                        .addBox(0.0F, 0.0F, 0.0F, 2.0F, 4.0F, 3.0F),
+                PartPose.offset(5.0F, 7.0F, -8.0F));
+        root.addOrReplaceChild("Shape11",
+                CubeListBuilder.create().texOffs(0, 17)
+                        .addBox(0.0F, 0.0F, -2.0F, 1.0F, 1.0F, 2.0F),
+                PartPose.offset(5.0F, 8.0F, -8.0F));
+        root.addOrReplaceChild("Shape12",
+                CubeListBuilder.create().texOffs(0, 21)
+                        .addBox(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F),
+                PartPose.offset(5.0F, 9.0F, -11.0F));
+        root.addOrReplaceChild("Shape13",
+                CubeListBuilder.create().texOffs(95, 36)
+                        .addBox(0.0F, 0.0F, 0.0F, 3.0F, 21.0F, 13.0F),
+                PartPose.offset(5.0F, -15.0F, 2.0F));
+        root.addOrReplaceChild("Shape14",
+                CubeListBuilder.create().texOffs(36, 94)
+                        .addBox(0.0F, 0.0F, -3.0F, 3.0F, 5.0F, 3.0F),
+                PartPose.offset(-1.5F, -17.0F, -43.0F));
+        root.addOrReplaceChild("Shape15",
+                CubeListBuilder.create().texOffs(113, 71)
+                        .addBox(0.0F, 18.0F, 8.0F, 3.0F, 18.0F, 4.0F),
+                PartPose.offsetAndRotation(5.0F, -15.0F, 2.0F, -0.1745329F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape16",
+                CubeListBuilder.create().texOffs(13, 11)
+                        .addBox(-2.0F, 0.0F, 0.0F, 2.0F, 1.0F, 3.0F),
+                PartPose.offset(5.0F, 10.0F, -8.0F));
+        root.addOrReplaceChild("Shape17",
+                CubeListBuilder.create().texOffs(0, 74)
+                        .addBox(0.0F, 35.0F, -1.0F, 3.0F, 3.0F, 6.0F),
+                PartPose.offset(5.0F, -15.0F, 2.0F));
+        root.addOrReplaceChild("Shape18",
+                CubeListBuilder.create().texOffs(58, 0)
+                        .addBox(-2.0F, 0.0F, 0.0F, 2.0F, 5.0F, 3.0F),
+                PartPose.offset(-5.0F, 0.0F, -7.0F));
+        root.addOrReplaceChild("Shape19",
+                CubeListBuilder.create().texOffs(59, 10)
+                        .addBox(-2.0F, 0.0F, 0.0F, 2.0F, 6.0F, 2.0F),
+                PartPose.offsetAndRotation(-5.1F, 3.0F, -6.0F, -0.3839724F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape20",
+                CubeListBuilder.create().texOffs(71, 5)
+                        .addBox(-2.0F, 0.0F, 0.0F, 2.0F, 4.0F, 3.0F),
+                PartPose.offset(-5.0F, 7.0F, -8.0F));
+        root.addOrReplaceChild("Shape21",
+                CubeListBuilder.create().texOffs(71, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 2.0F, 1.0F, 3.0F),
+                PartPose.offset(-5.0F, 10.0F, -8.0F));
+        root.addOrReplaceChild("Shape22",
+                CubeListBuilder.create().texOffs(0, 10)
+                        .addBox(-1.0F, 0.0F, -2.0F, 1.0F, 1.0F, 2.0F),
+                PartPose.offset(-5.0F, 8.0F, -8.0F));
+        root.addOrReplaceChild("Shape23",
+                CubeListBuilder.create().texOffs(0, 14)
+                        .addBox(-1.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F),
+                PartPose.offset(-5.0F, 9.0F, -11.0F));
+        root.addOrReplaceChild("Shape24",
+                CubeListBuilder.create().texOffs(95, 0)
+                        .addBox(-3.0F, 0.0F, 0.0F, 3.0F, 22.0F, 13.0F),
+                PartPose.offset(-5.0F, -15.0F, 2.0F));
+        root.addOrReplaceChild("Shape25",
+                CubeListBuilder.create().texOffs(96, 71)
+                        .addBox(-3.0F, 18.0F, 8.0F, 3.0F, 18.0F, 4.0F),
+                PartPose.offsetAndRotation(-5.0F, -15.0F, 2.0F, -0.1745329F, 0.0F, 0.0F));
+        root.addOrReplaceChild("Shape26",
+                CubeListBuilder.create().texOffs(0, 64)
+                        .addBox(-3.0F, 35.0F, -1.0F, 3.0F, 3.0F, 6.0F),
+                PartPose.offset(-5.0F, -15.0F, 2.0F));
+        root.addOrReplaceChild("Shape52",
+                CubeListBuilder.create().texOffs(9, 0)
+                        .addBox(0.0F, 0.0F, 0.0F, 0.0F, 2.0F, 2.0F),
+                PartPose.offset(0.0F, -19.0F, -30.0F));
+        return LayerDefinition.create(mesh, 128, 128);
+    }
+
+    @Override
+    public ModelPart root() {
+        return this.root;
+    }
+
+    @Override
+    public void setupAnim(Baryonyx entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+        animate(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
+    }
+
+    private void animate(Baryonyx entity, float f, float f1, float f2, float f3, float f4) {
+
+        float newangle = 0.0F;
+        if (f1 > 0.1) {
+        newangle = Mth.cos(f2 * 0.4F * this.wingspeed) * (float) Math.PI * 0.15F * f1;
+        } else {
+        newangle = 0.0F;
+        }
+        this.Shape24.xRot = newangle;
+        this.Shape25.xRot = -0.17F + newangle;
+        this.Shape26.xRot = newangle;
+        this.Shape13.xRot = -newangle;
+        this.Shape15.xRot = -0.17F - newangle;
+        this.Shape17.xRot = -newangle;
+        newangle = Mth.cos(f2 * 0.7F * this.wingspeed) * (float) Math.PI * 0.25F;
+        this.Shape21.zRot = newangle;
+        this.Shape16.zRot = -newangle;
+    }
+}

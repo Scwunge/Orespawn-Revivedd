@@ -1,0 +1,7 @@
+﻿{
+  "type": "neoforge:add_spawns",
+  "biomes": "#orespawn:swamps_and_lakes",
+  "spawners": [
+    { "type": "orespawn:dragonfly", "weight": 15, "minCount": 1, "maxCount": 1 }
+  ]
+}

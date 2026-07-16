@@ -1,0 +1,13 @@
+{
+    "cookingtime":  100,
+    "experience":  0.4,
+    "ingredient":  {
+                       "item":  "orespawn:rawpeacock"
+                   },
+    "type":  "minecraft:smoking",
+    "category":  "food",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:cookedpeacock"
+               }
+}

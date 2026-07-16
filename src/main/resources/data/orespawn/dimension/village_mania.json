@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:village_mania",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:village_mania",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:village_mania"
+    }
+  }
+}

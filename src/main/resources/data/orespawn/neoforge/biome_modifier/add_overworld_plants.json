@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "orespawn:insect_plant",
+    "orespawn:corn_plant"
+  ],
+  "step": "vegetal_decoration"
+}

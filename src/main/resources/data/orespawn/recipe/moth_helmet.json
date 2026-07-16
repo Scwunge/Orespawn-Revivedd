@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Y": { "item": "orespawn:moth_scale" }
+  },
+  "pattern": [
+    "YYY",
+    "Y Y"
+  ],
+  "result": { "count": 1, "id": "orespawn:moth_helmet" }
+}

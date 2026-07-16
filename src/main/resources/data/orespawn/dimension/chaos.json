@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:chaos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:chaos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:chaos"
+    }
+  }
+}

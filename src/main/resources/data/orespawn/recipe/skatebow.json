@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "S":  {
+                          "item":  "minecraft:string"
+                      },
+                "T":  {
+                          "item":  "orespawn:crystal_sticks"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    " TS",
+                    "T S",
+                    " TS"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:skatebow"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

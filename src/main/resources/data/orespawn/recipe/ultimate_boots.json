@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "orespawn:titanium_ingot"
+    },
+    "U": {
+      "item": "orespawn:uranium_ingot"
+    }
+  },
+  "pattern": [
+    "T T",
+    "U U"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn:ultimate_boots"
+  }
+}

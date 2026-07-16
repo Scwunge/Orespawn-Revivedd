@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "orespawn:block/crystalfurnace_top",
+    "front": "orespawn:block/crystalfurnace_front_off",
+    "side": "orespawn:block/crystalfurnace_side"
+  }
+}

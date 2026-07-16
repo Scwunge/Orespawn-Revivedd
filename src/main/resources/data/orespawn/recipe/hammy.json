@@ -1,0 +1,22 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:ultimate_sword"
+                        },
+                        {
+                            "item":  "orespawn:ultimate_sword"
+                        },
+                        {
+                            "item":  "orespawn:bighammer"
+                        },
+                        {
+                            "item":  "orespawn:greengoo"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:hammy"
+               }
+}

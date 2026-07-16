@@ -1,0 +1,214 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 10.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:empty_cage",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_chestplate",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_leggings",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_helmet",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_boots",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_sword",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_chestplate",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_leggings",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_helmet",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_boots",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_sword",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_pickaxe",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_shovel",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_hoe",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_axe",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_bow",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:bertha",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:slice",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:bacon",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 12.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:buttercandy",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 12.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_pickaxe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_shovel",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_hoe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_axe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_sword",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_chestplate",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_leggings",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_helmet",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_boots",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:thunder_staff",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

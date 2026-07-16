@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:cherries"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:cherrytree_seed"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

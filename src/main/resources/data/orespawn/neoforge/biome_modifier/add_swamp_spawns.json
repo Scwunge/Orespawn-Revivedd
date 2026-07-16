@@ -1,0 +1,7 @@
+﻿{
+  "type": "neoforge:add_spawns",
+  "biomes": "#orespawn:swamp_only",
+  "spawners": [
+    { "type": "orespawn:mosquito", "weight": 15, "minCount": 1, "maxCount": 1 }
+  ]
+}

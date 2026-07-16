@@ -1,0 +1,13 @@
+{
+    "type":  "minecraft:blasting",
+    "category":  "misc",
+    "experience":  0.1,
+    "cookingtime":  100,
+    "ingredient":  {
+                       "item":  "orespawn:corn"
+                   },
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:popcorn"
+               }
+}

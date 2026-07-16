@@ -1,0 +1,30 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "O":  {
+                          "item":  "orespawn:nightmare_scale"
+                      },
+                "D":  {
+                          "item":  "minecraft:diamond"
+                      },
+                "I":  {
+                          "item":  "minecraft:iron_ingot"
+                      },
+                "T":  {
+                          "item":  "orespawn:titanium_ingot"
+                      },
+                "R":  {
+                          "item":  "minecraft:redstone"
+                      }
+            },
+    "pattern":  [
+                    "ODO",
+                    "RTR",
+                    "OIO"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:nightmare_sword"
+               }
+}

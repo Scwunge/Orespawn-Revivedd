@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "A":  {
+                          "item":  "orespawn:emerald_leggings"
+                      },
+                "E":  {
+                          "item":  "minecraft:experience_bottle"
+                      }
+            },
+    "category":  "equipment",
+    "pattern":  [
+                    "EEE",
+                    "EAE",
+                    "EEE"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:experience_leggings"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "orespawn:block/krakenrepellent_wall"
+    },
+    "facing=south": {
+      "y": 90,
+      "model": "orespawn:block/krakenrepellent_wall"
+    },
+    "facing=north": {
+      "y": 270,
+      "model": "orespawn:block/krakenrepellent_wall"
+    },
+    "facing=up": {
+      "model": "orespawn:block/krakenrepellent"
+    },
+    "facing=west": {
+      "y": 180,
+      "model": "orespawn:block/krakenrepellent_wall"
+    }
+  }
+}

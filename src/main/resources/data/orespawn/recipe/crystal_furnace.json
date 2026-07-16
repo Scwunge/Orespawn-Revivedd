@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "#":  {
+                          "item":  "orespawn:crystal_stone"
+                      }
+            },
+    "pattern":  [
+                    "###",
+                    "# #",
+                    "###"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:crystal_furnace"
+               }
+}

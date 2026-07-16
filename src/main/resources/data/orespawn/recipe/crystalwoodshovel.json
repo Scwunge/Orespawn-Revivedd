@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Y": { "item": "orespawn:crystal_planks" },
+    "Z": { "item": "orespawn:crystal_sticks" }
+  },
+  "pattern": [" Y "," Z "," Z "],
+  "result": { "count": 1, "id": "orespawn:crystalwoodshovel" }
+}

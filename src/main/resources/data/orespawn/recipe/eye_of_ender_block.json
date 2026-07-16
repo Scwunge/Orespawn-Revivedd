@@ -1,0 +1,18 @@
+{
+    "key":  {
+                "T":  {
+                          "item":  "minecraft:ender_eye"
+                      }
+            },
+    "category":  "misc",
+    "pattern":  [
+                    "TTT",
+                    "TTT",
+                    "TTT"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:eye_of_ender_block"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

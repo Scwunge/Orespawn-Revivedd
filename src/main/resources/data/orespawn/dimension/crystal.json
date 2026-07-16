@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:crystal",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:crystal",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:crystal"
+    }
+  }
+}

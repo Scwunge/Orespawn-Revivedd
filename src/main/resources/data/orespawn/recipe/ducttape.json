@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "R":  {
+                          "item":  "minecraft:string"
+                      },
+                "A":  {
+                          "item":  "minecraft:slime_ball"
+                      }
+            },
+    "pattern":  [
+                    "   ",
+                    "AAA",
+                    "RRR"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:ducttape"
+               }
+}

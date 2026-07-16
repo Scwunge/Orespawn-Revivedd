@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": { "Y": { "item": "orespawn:ruby" } },
+  "pattern": ["YYY","Y Y","Y Y"],
+  "result": { "count": 1, "id": "orespawn:ruby_leggings" }
+}

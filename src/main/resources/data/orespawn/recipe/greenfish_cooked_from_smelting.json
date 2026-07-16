@@ -1,0 +1,13 @@
+{
+    "cookingtime":  200,
+    "experience":  0.2,
+    "ingredient":  {
+                       "item":  "orespawn:greenfish"
+                   },
+    "type":  "minecraft:smelting",
+    "category":  "food",
+    "result":  {
+                   "count":  1,
+                   "id":  "minecraft:cooked_cod"
+               }
+}

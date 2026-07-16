@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:uranium_ore",
+    "orespawn:titanium_ore",
+    "orespawn:amethyst_ore",
+    "orespawn:uranium_block",
+    "orespawn:titanium_block",
+    "orespawn:amethyst_block"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "particle": "orespawn:block/pizza_side",
+    "bottom": "orespawn:block/pizza_bottom",
+    "top": "orespawn:block/pizza_top",
+    "side": "orespawn:block/pizza_side"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 4, 15],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west":  { "texture": "#side" },
+        "east":  { "texture": "#side" }
+      }
+    }
+  ]
+}

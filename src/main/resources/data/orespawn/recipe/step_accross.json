@@ -1,0 +1,21 @@
+{
+    "key":  {
+                "C":  {
+                          "item":  "minecraft:cobblestone"
+                      },
+                "G":  {
+                          "item":  "minecraft:gunpowder"
+                      }
+            },
+    "category":  "misc",
+    "pattern":  [
+                    " C ",
+                    "GC ",
+                    " C "
+                ],
+    "result":  {
+                   "count":  8,
+                   "id":  "orespawn:step_accross"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

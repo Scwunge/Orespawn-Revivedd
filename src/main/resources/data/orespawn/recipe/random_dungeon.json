@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "R":  {
+                          "item":  "minecraft:beacon"
+                      },
+                "A":  {
+                          "item":  "minecraft:coal"
+                      }
+            },
+    "pattern":  [
+                    "RRR",
+                    "RAR",
+                    "RRR"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:randomdungeon"
+               }
+}

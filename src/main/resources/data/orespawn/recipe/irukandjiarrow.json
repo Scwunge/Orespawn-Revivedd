@@ -1,0 +1,19 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:peacockfeather"
+                        },
+                        {
+                            "item":  "orespawn:deadirukandji"
+                        },
+                        {
+                            "item":  "orespawn:crystal_sticks"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:irukandjiarrow"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

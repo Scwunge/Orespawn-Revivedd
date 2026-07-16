@@ -1,0 +1,9 @@
+﻿{
+  "type": "neoforge:add_spawns",
+  "biomes": "#orespawn:forests_and_jungles",
+  "spawners": [
+    { "type": "orespawn:brutalfly", "weight": 10, "minCount": 1, "maxCount": 1 },
+    { "type": "orespawn:beaver", "weight": 15, "minCount": 1, "maxCount": 1 },
+    { "type": "orespawn:stinkbug", "weight": 15, "minCount": 1, "maxCount": 1 }
+  ]
+}

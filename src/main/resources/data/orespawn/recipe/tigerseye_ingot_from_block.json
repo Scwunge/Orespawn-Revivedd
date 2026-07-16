@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{ "item": "orespawn:tigerseye_block" }],
+  "result": { "count": 9, "id": "orespawn:tigerseye_ingot" }
+}

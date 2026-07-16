@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "Y":  {
+                          "item":  "orespawn:queenscale"
+                      }
+            },
+    "pattern":  [
+                    "YYY",
+                    "Y Y"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:queen_helmet"
+               }
+}

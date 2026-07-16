@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5.0,
+        "max": 9.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:blt_sandwich",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:salad",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:fairy_sword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:rat_sword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:poison_sword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:pink_helmet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:pink_chestplate",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:tigerseye_helmet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:tigerseye_chestplate",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:squid_zooka",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:tigerseye_ingot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

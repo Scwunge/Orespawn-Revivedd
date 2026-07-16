@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 8.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 8.0 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:ultimate_sword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:bertha",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:royal",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queen_battle_axe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queen_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queen_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queen_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queen_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:amethyst_block",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:queenscale",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:uranium_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

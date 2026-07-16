@@ -1,0 +1,18 @@
+{
+    "key":  {
+                "T":  {
+                          "item":  "orespawn:godzillascale"
+                      }
+            },
+    "category":  "misc",
+    "pattern":  [
+                    "TTT",
+                    "TTT",
+                    "TTT"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:mobzilla_scale_block"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

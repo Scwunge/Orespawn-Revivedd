@@ -1,0 +1,27 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "T":  {
+                          "item":  "orespawn:titanium_ingot"
+                      },
+                "S":  {
+                          "item":  "minecraft:string"
+                      },
+                "I":  {
+                          "item":  "minecraft:iron_ingot"
+                      },
+                "U":  {
+                          "item":  "orespawn:uranium_ingot"
+                      }
+            },
+    "pattern":  [
+                    "  T",
+                    " US",
+                    "I S"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:ultimate_fishing_rod"
+               }
+}

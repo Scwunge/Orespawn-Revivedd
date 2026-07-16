@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:zoo4"
+                        },
+                        {
+                            "item":  "minecraft:iron_bars"
+                        },
+                        {
+                            "item":  "minecraft:glass"
+                        },
+                        {
+                            "item":  "minecraft:iron_block"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:zoo6"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

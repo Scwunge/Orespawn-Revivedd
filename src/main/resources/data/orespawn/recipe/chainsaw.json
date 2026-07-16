@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "I":  {
+                          "item":  "orespawn:ultimate_axe"
+                      },
+                "E":  {
+                          "item":  "minecraft:beacon"
+                      }
+            },
+    "pattern":  [
+                    "EEE",
+                    "EIE",
+                    "EEE"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:chainsaw"
+               }
+}

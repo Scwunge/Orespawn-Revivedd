@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:apple"
+                        }
+                    ],
+    "category":  "misc",
+    "result":  {
+                   "count":  6,
+                   "id":  "orespawn:appletree_seed"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

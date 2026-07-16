@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.4,
+  "ingredient": {
+    "item": "orespawn:titanium_ore"
+  },
+  "result": {
+    "id": "orespawn:titanium_nugget"
+  }
+}

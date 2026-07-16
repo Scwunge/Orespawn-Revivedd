@@ -1,0 +1,58 @@
+package danger.orespawn.entity;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.AgeableMob;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Gold {@code GoldCow} extends {@code RedCow}. Size cow default 0.9×1.4.
+ * Extra drops: apple ×(nextInt(3)+nextInt(1+looting)), 1 golden apple, then RedCow super.
+ * Never despawns (via RedCow).
+ */
+public class GoldCow extends RedCow {
+    public GoldCow(EntityType<? extends GoldCow> type, Level level) {
+        super(type, level);
+    }
+
+    public static AttributeSupplier.Builder createAttributes() {
+        return RedCow.createAttributes();
+    }
+
+    @Override
+    protected void dropCustomDeathLoot(ServerLevel level, DamageSource damageSource, boolean recentlyHit) {
+        // gold: nextInt(3) + nextInt(1 + looting) apples, 1 golden apple, then super
+        int looting = 0;
+        if (damageSource.getEntity() instanceof Player player) {
+            looting = EnchantmentHelper.getItemEnchantmentLevel(
+                    level.registryAccess()
+                            .lookupOrThrow(Registries.ENCHANTMENT)
+                            .getOrThrow(Enchantments.LOOTING),
+                    player.getMainHandItem());
+        }
+        int n = this.random.nextInt(3) + this.random.nextInt(1 + looting);
+        for (int i = 0; i < n; i++) {
+            this.spawnAtLocation(new ItemStack(Items.APPLE));
+        }
+        this.spawnAtLocation(new ItemStack(Items.GOLDEN_APPLE));
+        super.dropCustomDeathLoot(level, damageSource, recentlyHit);
+    }
+
+    @Nullable
+    @Override
+    public GoldCow getBreedOffspring(ServerLevel level, AgeableMob otherParent) {
+        // gold spawnBabyAnimal → new GoldCow; no shared ModEntities in exclusive scope
+        Entity created = this.getType().create(level);
+        return created instanceof GoldCow cow ? cow : null;
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "I":  {
+                          "item":  "minecraft:stick"
+                      },
+                "E":  {
+                          "item":  "minecraft:emerald"
+                      }
+            },
+    "pattern":  [
+                    " E ",
+                    " E ",
+                    " I "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:rat_sword"
+               }
+}

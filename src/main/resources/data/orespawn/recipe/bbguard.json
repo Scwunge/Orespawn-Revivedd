@@ -1,0 +1,31 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:molenoidnose"
+                        },
+                        {
+                            "item":  "orespawn:seamonsterscale"
+                        },
+                        {
+                            "item":  "orespawn:moth_scale"
+                        },
+                        {
+                            "item":  "orespawn:basiliskscale"
+                        },
+                        {
+                            "item":  "orespawn:nightmare_scale"
+                        },
+                        {
+                            "item":  "orespawn:emperorscorpionscale"
+                        },
+                        {
+                            "item":  "orespawn:jumpybugscale"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:bbguard"
+               }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "orespawn:mining",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "orespawn:mining",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:mining"
+    }
+  }
+}

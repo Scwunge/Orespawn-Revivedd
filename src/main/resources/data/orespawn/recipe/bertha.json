@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "orespawn:bbhandle"
+                        },
+                        {
+                            "item":  "orespawn:bbguard"
+                        },
+                        {
+                            "item":  "orespawn:bbblade"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:bertha"
+               }
+}

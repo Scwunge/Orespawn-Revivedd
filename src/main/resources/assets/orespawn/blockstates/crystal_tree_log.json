@@ -1,0 +1,7 @@
+﻿{
+  "variants": {
+    "axis=y": { "model": "orespawn:block/crystal_tree_log" },
+    "axis=z": { "model": "orespawn:block/crystal_tree_log", "x": 90 },
+    "axis=x": { "model": "orespawn:block/crystal_tree_log", "x": 90, "y": 90 }
+  }
+}

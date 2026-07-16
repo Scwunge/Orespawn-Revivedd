@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "Y":  {
+                          "item":  "orespawn:peacockfeather"
+                      }
+            },
+    "pattern":  [
+                    "Y Y",
+                    "YYY",
+                    "YYY"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:peacock_chestplate"
+               }
+}

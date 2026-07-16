@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "I":  {
+                          "item":  "minecraft:iron_ingot"
+                      },
+                "E":  {
+                          "item":  "orespawn:queenscale"
+                      }
+            },
+    "pattern":  [
+                    "EIE",
+                    "EIE",
+                    " I "
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:queen_battle_axe"
+               }
+}

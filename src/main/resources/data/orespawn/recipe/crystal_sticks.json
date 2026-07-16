@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["#","#"],
+  "key": { "#": { "item": "orespawn:crystal_planks" } },
+  "result": { "id": "orespawn:crystal_sticks", "count": 4 }
+}

@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "misc",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:redstone"
+                        },
+                        {
+                            "item":  "minecraft:stick"
+                        },
+                        {
+                            "item":  "minecraft:coal"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:extreme_torch"
+               }
+}

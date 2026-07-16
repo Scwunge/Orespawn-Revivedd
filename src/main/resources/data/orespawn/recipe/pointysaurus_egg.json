@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:egg" },
+    { "item": "orespawn:pointysaurus_ore" }
+  ],
+  "result": { "count": 1, "id": "orespawn:pointysaurus_egg" }
+}

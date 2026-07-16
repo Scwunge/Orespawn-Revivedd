@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "equipment",
+    "key":  {
+                "I":  {
+                          "item":  "orespawn:emerald_sword"
+                      },
+                "E":  {
+                          "item":  "minecraft:experience_bottle"
+                      }
+            },
+    "pattern":  [
+                    "EEE",
+                    "EIE",
+                    "EEE"
+                ],
+    "result":  {
+                   "count":  1,
+                   "id":  "orespawn:experience_sword"
+               }
+}

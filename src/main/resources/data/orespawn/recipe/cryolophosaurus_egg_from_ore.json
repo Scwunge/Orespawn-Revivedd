@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:egg" },
+    { "item": "orespawn:cryolophosaurus_ore" }
+  ],
+  "result": { "count": 1, "id": "orespawn:cryolophosaurus_egg" }
+}
