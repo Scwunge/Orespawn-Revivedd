@@ -1,13 +1,13 @@
 package danger.orespawn.util;
 
-/** Gold Reference.java — version string updated for 1.21.1 port. */
+/** OreSpawn constants. */
 public final class Reference {
     public static final String MOD_ID = "orespawn";
     public static final String NAME = "OreSpawn";
-    public static final String VERSION = "1.0.0-1.21.1-port";
+    public static final String VERSION = "1.0.0-1.21.1";
     public static final String ACCEPTED_VERSIONS = "[1.21.1]";
 
-    // Gold numeric entity IDs kept for documentation / spawn-egg notes only (not used by EntityType registry).
+    // Numeric entity IDs kept for documentation / spawn-egg notes only (not used by EntityType registry).
     public static final int ENTITY_ALOSAURUS = 120;
     public static final int ENTITY_TREX = 121;
     public static final int ENTITY_BARYONYX = 122;

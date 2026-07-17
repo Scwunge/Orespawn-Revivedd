@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "orespawn:item/item_dust_ender_pearl"
+  }
+}
+

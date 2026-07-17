@@ -1,0 +1,18 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PNP",
+    "PPP"
+  ],
+  "key": {
+    "P": { "item": "orespawn:ender_pearl_dust" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "id": "orespawn:ender_star",
+    "count": 1
+  }
+}
+

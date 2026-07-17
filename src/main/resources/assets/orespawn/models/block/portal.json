@@ -1,0 +1,6 @@
+﻿{
+  "render_type": "minecraft:translucent",
+  "ambientocclusion": false,
+  "parent": "orespawn:block/portal_plane"
+}
+

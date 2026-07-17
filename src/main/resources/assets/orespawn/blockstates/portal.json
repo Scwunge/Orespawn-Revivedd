@@ -1,0 +1,29 @@
+﻿{
+  "multipart": [
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "orespawn:block/portal_plane" }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "orespawn:block/portal_plane", "y": 180 }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "orespawn:block/portal_plane", "y": 90 }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "orespawn:block/portal_plane", "y": 270 }
+    },
+    {
+      "when": { "facing": "up" },
+      "apply": { "model": "orespawn:block/portal_plane", "x": 270 }
+    },
+    {
+      "when": { "facing": "down" },
+      "apply": { "model": "orespawn:block/portal_plane", "x": 90 }
+    }
+  ]
+}
+

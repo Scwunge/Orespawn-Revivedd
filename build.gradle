@@ -122,11 +122,34 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_name               : mod_name,
             mod_license            : mod_license,
             mod_version            : mod_version,
+            mod_authors            : mod_authors,
     ]
     inputs.properties replaceProperties
     expand replaceProperties
     from "src/main/templates"
     into "build/generated/sources/modMetadata"
+    // NightConfig rejects UTF-8 BOM ("Invalid bare key: '\ufeffmodLoader'")
+    doLast {
+        def toml = file("build/generated/sources/modMetadata/META-INF/neoforge.mods.toml")
+        if (toml.exists()) {
+            byte[] bytes = toml.bytes
+            if (bytes.length >= 3 && (bytes[0] & 0xFF) == 0xEF && (bytes[1] & 0xFF) == 0xBB && (bytes[2] & 0xFF) == 0xBF) {
+                toml.bytes = Arrays.copyOfRange(bytes, 3, bytes.length)
+            }
+        }
+    }
+}
+
+tasks.named("processResources", ProcessResources).configure {
+    doLast {
+        def toml = file("build/resources/main/META-INF/neoforge.mods.toml")
+        if (toml.exists()) {
+            byte[] bytes = toml.bytes
+            if (bytes.length >= 3 && (bytes[0] & 0xFF) == 0xEF && (bytes[1] & 0xFF) == 0xBB && (bytes[2] & 0xFF) == 0xBF) {
+                toml.bytes = Arrays.copyOfRange(bytes, 3, bytes.length)
+            }
+        }
+    }
 }
 // Include the output of "generateModMetadata" as an input directory for the build
 // this works with both building through Gradle and the IDE.

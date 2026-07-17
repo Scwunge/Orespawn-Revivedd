@@ -11,15 +11,19 @@ import danger.orespawn.init.ModItems;
 import danger.orespawn.items.armor.OrespawnArmorMaterial;
 import danger.orespawn.util.Reference;
 import danger.orespawn.util.handlers.SoundsHandler;
+import me.scwunge.mods.portalgun.PortalGunMod;
+import me.scwunge.mods.portalgun.client.PortalGunClientMod;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import org.slf4j.Logger;
 
 /**
- * 1:1 port entry — gold OreSpawnMain (1.12 FML lifecycle → NeoForge mod bus).
+ * OreSpawn main entry (includes PortalGun feature module).
  */
 @Mod(Reference.MOD_ID)
 public class OreSpawnMain {
@@ -54,7 +58,7 @@ public class OreSpawnMain {
      */
     public static int big_bertha_pvp = 0;
 
-    public OreSpawnMain(IEventBus modEventBus) {
+    public OreSpawnMain(IEventBus modEventBus, ModContainer container) {
         instance = this;
         ModBlocks.BLOCKS.register(modEventBus);
         ModBlocks.BLOCK_ITEMS.register(modEventBus);
@@ -66,10 +70,17 @@ public class OreSpawnMain {
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         SoundsHandler.SOUND_EVENTS.register(modEventBus);
         ModFeatures.FEATURES.register(modEventBus);
+
+        // PortalGun (registry namespace portalgun; events under orespawn)
+        PortalGunMod.init(modEventBus, container);
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            PortalGunClientMod.register(modEventBus);
+        }
+
         modEventBus.addListener(this::commonSetup);
         // Game bus only — RegisterCommandsEvent is never on the mod bus.
         NeoForge.EVENT_BUS.addListener(CommandDimensionTeleport::onRegisterCommands);
-        LOGGER.info("OreSpawn 1.21.1 port loading (primary gold: 1.7.10 classic + CF reuse).");
+        LOGGER.info("OreSpawn loading.");
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
