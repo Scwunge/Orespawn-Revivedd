@@ -34,6 +34,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ServerLevelData;
@@ -714,5 +715,11 @@ public class Kraken extends Monster {
             return true;
         }
         return super.checkSpawnRules(level, spawnType);
+    }
+
+    /** Spawns in water: skip the vanilla "no liquid in bounding box" check (as {@code WaterAnimal} does). */
+    @Override
+    public boolean checkSpawnObstruction(LevelReader level) {
+        return level.isUnobstructed(this);
     }
 }

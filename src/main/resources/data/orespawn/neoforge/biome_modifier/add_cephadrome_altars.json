@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "orespawn:cephadrome_altar"
+  ],
+  "step": "surface_structures"
+}

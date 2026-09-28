@@ -3,6 +3,7 @@ package danger.orespawn.init;
 import danger.orespawn.util.Reference;
 import danger.orespawn.world.gen.AntHillFeature;
 import danger.orespawn.world.gen.BasiliskMazeFeature;
+import danger.orespawn.world.gen.CephadromeAltarFeature;
 import danger.orespawn.world.gen.CornPlantFeature;
 import danger.orespawn.world.gen.CrystalDecorFeature;
 import danger.orespawn.world.gen.CrystalMazeFeature;
@@ -35,6 +36,10 @@ public final class ModFeatures {
     /** Gold BasiliskMaze — dungeon spawner type 23. */
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> BASILISK_MAZE =
             FEATURES.register("basilisk_maze", BasiliskMazeFeature::new);
+
+    /** Gold CephadromeAltar — dungeon spawner type 34, overworld surface. */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> CEPHADROME_ALTAR =
+            FEATURES.register("cephadrome_altar", CephadromeAltarFeature::new);
 
     /** Gold CrystalMaze — crystal dim chunk maze at y=25 (no dungeon spawner type). */
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> CRYSTAL_MAZE =

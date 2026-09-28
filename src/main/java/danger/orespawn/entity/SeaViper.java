@@ -36,6 +36,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
@@ -455,5 +456,11 @@ public class SeaViper extends Monster {
         return this.level()
                 .getEntitiesOfClass(SeaViper.class, this.getBoundingBox().inflate(16.0, 5.0, 16.0), e -> e != this)
                 .isEmpty();
+    }
+
+    /** Spawns in water: skip the vanilla "no liquid in bounding box" check (as {@code WaterAnimal} does). */
+    @Override
+    public boolean checkSpawnObstruction(LevelReader level) {
+        return level.isUnobstructed(this);
     }
 }

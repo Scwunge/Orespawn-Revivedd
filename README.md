@@ -34,6 +34,18 @@ gradlew runServer
   - Craft: Ender Pearl Dust → Ender Star → Portal Gun
   - Config: `run/config/orespawn-portal.toml`
 
+## Spawn rates
+
+Spawn weights are data-driven, so a datapack can override any of them:
+
+| File (under `data/orespawn/`) | Controls |
+|------|---------|
+| `worldgen/biome/<dim>.json` | Mob lists for each OreSpawn dimension (Mobzilla lives in `village_mania.json`) |
+| `neoforge/biome_modifier/add_*_spawns.json` | Overworld / Nether additions (ants, termites, ocean monsters, …) |
+| `neoforge/biome_modifier/add_cephadrome_altars.json` + `worldgen/placed_feature/cephadrome_altar.json` | Cephadrome Altar (rarity 1 in 150 chunks, then a flat-ground check) |
+
+The King and Queen altars are generated in Utopia by `UtopiaDimEvents`.
+
 ## Project layout
 
 | Path | Purpose |

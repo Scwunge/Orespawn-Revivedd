@@ -1,10 +1,16 @@
 package danger.orespawn.init;
 
 import danger.orespawn.util.Reference;
+import net.minecraft.core.BlockPos;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.Difficulty;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -134,11 +140,17 @@ public final class EntitySpawns {
         groundMonster(event, ModEntities.THE_KING.get());
         groundMonster(event, ModEntities.THE_QUEEN.get());
         groundMonster(event, ModEntities.GODZILLA.get());
-        groundMonster(event, ModEntities.KRAKEN.get());
-        groundMonster(event, ModEntities.SEA_MONSTER.get());
-        groundMonster(event, ModEntities.SEA_VIPER.get());
-        groundMonster(event, ModEntities.ATTACK_SQUID.get());
         groundMonster(event, ModEntities.HAMMERHEAD.get());
+
+        // ——— Utopia / Village Mania pickups (listed in dim biomes) ———
+        groundMob(event, ModEntities.COIN.get());
+        groundMob(event, ModEntities.TSHIRT.get());
+
+        // ——— Ocean monsters: spawn at the water surface (entity checks enforce y ≥ 50) ———
+        waterMonster(event, ModEntities.KRAKEN.get());
+        waterMonster(event, ModEntities.SEA_MONSTER.get());
+        waterMonster(event, ModEntities.SEA_VIPER.get());
+        waterMonster(event, ModEntities.ATTACK_SQUID.get());
 
         // ——— Water (IN_WATER placement) ———
         waterMob(event, ModEntities.IRUKANDJI.get());
@@ -168,13 +180,47 @@ public final class EntitySpawns {
                 RegisterSpawnPlacementsEvent.Operation.OR);
     }
 
+    /** OCEAN_FLOOR heightmap so chunk-generation spawns land inside the water column, not above it. */
     private static <T extends Mob> void waterMob(
             RegisterSpawnPlacementsEvent event, EntityType<T> type) {
         event.register(
                 type,
                 SpawnPlacementTypes.IN_WATER,
-                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-                Mob::checkMobSpawnRules,
+                Heightmap.Types.OCEAN_FLOOR,
+                EntitySpawns::checkWaterSpawnRules,
                 RegisterSpawnPlacementsEvent.Operation.OR);
+    }
+
+    private static <T extends Monster> void waterMonster(
+            RegisterSpawnPlacementsEvent event, EntityType<T> type) {
+        event.register(
+                type,
+                SpawnPlacementTypes.IN_WATER,
+                Heightmap.Types.OCEAN_FLOOR,
+                EntitySpawns::checkWaterMonsterSpawnRules,
+                RegisterSpawnPlacementsEvent.Operation.OR);
+    }
+
+    /**
+     * {@link Mob#checkMobSpawnRules} needs a solid block below, which open water never has,
+     * so water mobs only need to be in water here (their own {@code checkSpawnRules} do the rest).
+     */
+    private static boolean checkWaterSpawnRules(
+            EntityType<? extends Mob> type,
+            ServerLevelAccessor level,
+            MobSpawnType spawnType,
+            BlockPos pos,
+            RandomSource random) {
+        return MobSpawnType.isSpawner(spawnType) || level.getFluidState(pos).is(FluidTags.WATER);
+    }
+
+    private static boolean checkWaterMonsterSpawnRules(
+            EntityType<? extends Monster> type,
+            ServerLevelAccessor level,
+            MobSpawnType spawnType,
+            BlockPos pos,
+            RandomSource random) {
+        return level.getDifficulty() != Difficulty.PEACEFUL
+                && checkWaterSpawnRules(type, level, spawnType, pos, random);
     }
 }

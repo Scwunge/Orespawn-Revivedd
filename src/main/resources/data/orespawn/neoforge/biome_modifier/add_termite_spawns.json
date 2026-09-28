@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#orespawn:forests_and_jungles",
+  "spawners": [
+    { "type": "orespawn:termite", "weight": 8, "minCount": 2, "maxCount": 4 }
+  ]
+}

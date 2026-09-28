@@ -178,26 +178,6 @@
         "weight": 4,
         "minCount": 2,
         "maxCount": 4
-      }
-    ],
-    "ambient": [
-      {
-        "type": "orespawn:firefly",
-        "weight": 15,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "orespawn:butterfly",
-        "weight": 20,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "orespawn:moth",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 5
       },
       {
         "type": "orespawn:chipmunk",
@@ -230,24 +210,6 @@
         "maxCount": 6
       },
       {
-        "type": "orespawn:firefly",
-        "weight": 10,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "orespawn:butterfly",
-        "weight": 25,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "orespawn:moth",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 5
-      },
-      {
         "type": "orespawn:chipmunk",
         "weight": 5,
         "minCount": 1,
@@ -276,11 +238,7 @@
         "weight": 15,
         "minCount": 1,
         "maxCount": 2
-      }
-    ],
-    "axolotls": [],
-    "underground_water_creature": [],
-    "water_creature": [
+      },
       {
         "type": "orespawn:whale",
         "weight": 1,
@@ -300,6 +258,47 @@
         "maxCount": 6
       }
     ],
+    "ambient": [
+      {
+        "type": "orespawn:firefly",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:butterfly",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:moth",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "orespawn:firefly",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:butterfly",
+        "weight": 25,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:moth",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
     "water_ambient": [],
     "misc": []
   },

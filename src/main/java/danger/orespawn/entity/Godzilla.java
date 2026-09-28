@@ -76,8 +76,15 @@ public class Godzilla extends Monster {
     public static final int GOLD_XP = 10000;
     public static final double GOLD_FOLLOW = 10000.0;
 
-    /** Gold {@code OreSpawnMain.godzilla_has_spawned} (local until main). */
-    public static int godzillaHasSpawned = 0;
+    /**
+     * Gold {@code OreSpawnMain.godzilla_has_spawned}: blocks natural spawns while a Mobzilla is alive.
+     * Stored as the game time a Mobzilla last ticked so the lock clears once it dies or unloads
+     * (a plain static flag was never reset, so no second Mobzilla could ever spawn until restart).
+     */
+    private static long lastAliveGameTime = Long.MIN_VALUE;
+
+    /** Ticks after the last living Mobzilla ticked before another may spawn naturally. */
+    private static final long SPAWN_LOCK_TICKS = 1200L;
 
     private final float moveSpeed = 0.75F;
     private int hurtTimer;
@@ -416,7 +423,7 @@ public class Godzilla extends Monster {
             this.jumpTimer--;
         }
 
-        godzillaHasSpawned = 1;
+        lastAliveGameTime = this.level().getGameTime();
 
         if (this.random.nextInt(200) == 0) {
             this.setTarget(null);
@@ -947,7 +954,7 @@ public class Godzilla extends Monster {
 
     /**
      * Gold {@code getCanSpawnHere}: dark, night, y≥50, headroom air 5.14 over ±8, no peer 64×16,
-     * random 1/40, sets godzilla_has_spawned.
+     * random 1/40, refreshes the alive lock.
      */
     @Override
     public boolean checkSpawnRules(LevelAccessor level, MobSpawnType spawnType) {
@@ -960,8 +967,11 @@ public class Godzilla extends Monster {
         if (this.getY() < 50.0) {
             return false;
         }
-        if (godzillaHasSpawned != 0) {
-            return false;
+        if (level instanceof Level lvl) {
+            long sinceAlive = lvl.getGameTime() - lastAliveGameTime;
+            if (sinceAlive >= 0 && sinceAlive < SPAWN_LOCK_TICKS) {
+                return false;
+            }
         }
         if (this.random.nextInt(40) != 1) {
             return false;
@@ -982,8 +992,8 @@ public class Godzilla extends Monster {
                 .isEmpty()) {
             return false;
         }
-        if (!level.isClientSide()) {
-            godzillaHasSpawned = 1;
+        if (level instanceof Level lvl && !lvl.isClientSide()) {
+            lastAliveGameTime = lvl.getGameTime();
         }
         return true;
     }
