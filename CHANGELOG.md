@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 (Minecraft 1.21.1, NeoForge)
+
+### Fixes
+
+- **Boyfriend textures fixed.** His arms and legs rendered broken or see-through because his skins (including the swim shorts and Frog Prince skins) use the old 64×32 skin layout but were drawn on the newer 64×64 player model. He now uses a model that matches his skins.
+
 ## 1.0.1 (Minecraft 1.21.1, NeoForge)
 
 ### Spawning fixes

@@ -1,7 +1,10 @@
 package danger.orespawn.client.model;
 
 import danger.orespawn.util.Reference;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.builders.CubeDeformation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -64,6 +67,8 @@ public final class ModModelLayers {
     public static final ModelLayerLocation FLOUNDER = layer("flounder");
     public static final ModelLayerLocation GOLD_FISH = layer("gold_fish");
     public static final ModelLayerLocation CLOUD_SHARK = layer("cloud_shark");
+    /** Biped on the legacy 64×32 skin layout (boyfriend / swimshorts / frogprince textures). */
+    public static final ModelLayerLocation BOYFRIEND = layer("boyfriend");
 
     // classic wave B
     public static final ModelLayerLocation LURKING_TERROR = layer("lurking_terror");
@@ -131,6 +136,8 @@ public final class ModModelLayers {
         event.registerLayerDefinition(FLOUNDER, ModelFlounder::createBodyLayer);
         event.registerLayerDefinition(GOLD_FISH, ModelGoldFish::createBodyLayer);
         event.registerLayerDefinition(CLOUD_SHARK, ModelCloudShark::createBodyLayer);
+        event.registerLayerDefinition(
+                BOYFRIEND, () -> LayerDefinition.create(HumanoidModel.createMesh(CubeDeformation.NONE, 0.0F), 64, 32));
 
         // wave B — prefer Model*.LAYER_LOCATION when renderers bake that id
         event.registerLayerDefinition(LURKING_TERROR, ModelLurkingTerror::createBodyLayer);

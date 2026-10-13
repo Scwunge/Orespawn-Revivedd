@@ -1,8 +1,8 @@
 package danger.orespawn.client.render;
 
+import danger.orespawn.client.model.ModModelLayers;
 import danger.orespawn.entity.Boyfriend;
 import net.minecraft.client.model.HumanoidModel;
-import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
@@ -12,13 +12,14 @@ import net.neoforged.api.distmarker.OnlyIn;
 /**
  * Gold {@code RenderBoyfriend}: ModelBiped, shadow {@code 0.55F}.
  * Texture from {@link Boyfriend#getTexture()}.
- * No custom model layer — vanilla {@link ModelLayers#PLAYER}.
+ * Every Boyfriend skin is a legacy 64×32 texture, so this uses {@link ModModelLayers#BOYFRIEND}
+ * (old biped UVs, mirrored left limbs) instead of the 64×64 vanilla player layer.
  */
 @OnlyIn(Dist.CLIENT)
 public class BoyfriendRenderer extends MobRenderer<Boyfriend, HumanoidModel<Boyfriend>> {
     public BoyfriendRenderer(EntityRendererProvider.Context context) {
         // gold ClientProxy: new RenderBoyfriend(new ModelBiped(), 0.55F)
-        super(context, new HumanoidModel<>(context.bakeLayer(ModelLayers.PLAYER)), 0.55F);
+        super(context, new HumanoidModel<>(context.bakeLayer(ModModelLayers.BOYFRIEND)), 0.55F);
     }
 
     @Override
