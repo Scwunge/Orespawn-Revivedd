@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:crab_ore"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn:crab_egg"
+  }
+}

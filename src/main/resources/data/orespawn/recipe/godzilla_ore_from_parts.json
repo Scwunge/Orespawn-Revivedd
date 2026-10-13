@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    },
+    {
+      "item": "orespawn:godzilla_part_ore"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn:godzilla_ore"
+  }
+}

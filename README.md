@@ -36,15 +36,17 @@ gradlew runServer
 
 ## Spawn rates
 
-Spawn weights are data-driven, so a datapack can override any of them:
+Spawns and world generation follow the original OreSpawn 1.7.10 tables, and all of them are data-driven, so a datapack can override any of them:
 
 | File (under `data/orespawn/`) | Controls |
 |------|---------|
+| `neoforge/biome_modifier/gold_spawns_<biome>.json` | Overworld / Nether mob spawns (the original's spawn table, by biome) |
 | `worldgen/biome/<dim>.json` | Mob lists for each OreSpawn dimension (Mobzilla lives in `village_mania.json`) |
-| `neoforge/biome_modifier/add_*_spawns.json` | Overworld / Nether additions (ants, termites, ocean monsters, …) |
-| `neoforge/biome_modifier/add_cephadrome_altars.json` + `worldgen/placed_feature/cephadrome_altar.json` | Cephadrome Altar (rarity 1 in 150 chunks, then a flat-ground check) |
+| `worldgen/placed_feature/spawn_egg_ores.json` | Ancient Dried Spawn Egg ore veins (count / height) |
+| `neoforge/biome_modifier/add_overworld_ores.json` | Which Overworld ores generate (uranium, titanium, ruby, trolls, buried blocks, ...) |
+| `worldgen/placed_feature/ant_hill*.json` | Ant nest rarity per dimension |
 
-The King and Queen altars are generated in Utopia by `UtopiaDimEvents`.
+Halloween ghosts and the Easter Bunny are date-based (`SeasonalSpawnEvents`). The King and Queen altars are generated in Utopia by `UtopiaDimEvents`.
 
 ## Project layout
 

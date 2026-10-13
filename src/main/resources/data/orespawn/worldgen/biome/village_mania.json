@@ -57,7 +57,8 @@
       "minecraft:trees_plains",
       "minecraft:flower_plains",
       "minecraft:patch_grass_plain",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "orespawn:ant_hill"
     ],
     ["minecraft:freeze_top_layer"]
   ],

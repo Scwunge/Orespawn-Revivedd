@@ -1217,6 +1217,7 @@ public final class ModItems {
     public static final DeferredItem<Item> OSTRICH_EGG = genericEgg("ostrich_egg", ModEntities.OSTRICH);
     public static final DeferredItem<Item> LIZARD_EGG = genericEgg("lizard_egg", ModEntities.LIZARD);
     public static final DeferredItem<Item> STINKY_EGG = genericEgg("stinky_egg", ModEntities.STINKY);
+    public static final DeferredItem<Item> TSHIRT_EGG = genericEgg("tshirt_egg", ModEntities.TSHIRT);
     public static final DeferredItem<Item> COCKATEIL_EGG = genericEgg("cockateil_egg", ModEntities.COCKATEIL);
     public static final DeferredItem<Item> SEA_MONSTER_EGG = genericEgg("sea_monster_egg", ModEntities.SEA_MONSTER);
     public static final DeferredItem<Item> SEA_VIPER_EGG = genericEgg("sea_viper_egg", ModEntities.SEA_VIPER);

@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:kyuubi_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:kyuubi_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:kyuubi_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:kyuubi_egg"
+  }
 }

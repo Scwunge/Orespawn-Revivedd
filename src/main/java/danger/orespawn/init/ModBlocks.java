@@ -263,6 +263,84 @@ public final class ModBlocks {
     public static final DeferredBlock<Block> REDCOW_ORE = registerEgg("redcow_ore");
     public static final DeferredBlock<Block> STINKBUG_ORE = registerEgg("stinkbug_ore");
 
+    // Remaining gold 1.7.10 egg ores (OreSpawnWorld.generateOres pool) + boss egg parts
+    public static final DeferredBlock<Block> SPIDER_ORE = registerEgg("spider_ore");
+    public static final DeferredBlock<Block> BAT_ORE = registerEgg("bat_ore");
+    public static final DeferredBlock<Block> SQUID_ORE = registerEgg("squid_ore");
+    public static final DeferredBlock<Block> CHICKEN_ORE = registerEgg("chicken_ore");
+    public static final DeferredBlock<Block> SKELETON_ORE = registerEgg("skeleton_ore");
+    public static final DeferredBlock<Block> SLIME_ORE = registerEgg("slime_ore");
+    public static final DeferredBlock<Block> ZOMBIE_PIGMAN_ORE = registerEgg("zombie_pigman_ore");
+    public static final DeferredBlock<Block> ENDERMAN_ORE = registerEgg("enderman_ore");
+    public static final DeferredBlock<Block> CAVE_SPIDER_ORE = registerEgg("cave_spider_ore");
+    public static final DeferredBlock<Block> SILVERFISH_ORE = registerEgg("silverfish_ore");
+    public static final DeferredBlock<Block> MAGMA_CUBE_ORE = registerEgg("magma_cube_ore");
+    public static final DeferredBlock<Block> WITCH_ORE = registerEgg("witch_ore");
+    public static final DeferredBlock<Block> SHEEP_ORE = registerEgg("sheep_ore");
+    public static final DeferredBlock<Block> WOLF_ORE = registerEgg("wolf_ore");
+    public static final DeferredBlock<Block> MOOSHROOM_ORE = registerEgg("mooshroom_ore");
+    public static final DeferredBlock<Block> OCELOT_ORE = registerEgg("ocelot_ore");
+    public static final DeferredBlock<Block> BLAZE_ORE = registerEgg("blaze_ore");
+    public static final DeferredBlock<Block> WITHER_SKELETON_ORE = registerEgg("wither_skeleton_ore");
+    public static final DeferredBlock<Block> ENDER_DRAGON_ORE = registerEgg("ender_dragon_ore");
+    public static final DeferredBlock<Block> SNOW_GOLEM_ORE = registerEgg("snow_golem_ore");
+    public static final DeferredBlock<Block> IRON_GOLEM_ORE = registerEgg("iron_golem_ore");
+    public static final DeferredBlock<Block> WITHER_ORE = registerEgg("wither_ore");
+    public static final DeferredBlock<Block> VILLAGER_ORE = registerEgg("villager_ore");
+    public static final DeferredBlock<Block> GIRLFRIEND_ORE = registerEgg("girlfriend_ore");
+    public static final DeferredBlock<Block> BOYFRIEND_ORE = registerEgg("boyfriend_ore");
+    public static final DeferredBlock<Block> GOLD_COW_ORE = registerEgg("gold_cow_ore");
+    public static final DeferredBlock<Block> ENCHANTED_COW_ORE = registerEgg("enchanted_cow_ore");
+    public static final DeferredBlock<Block> HYDROLISC_ORE = registerEgg("hydrolisc_ore");
+    public static final DeferredBlock<Block> BASILISK_ORE = registerEgg("basilisk_ore");
+    public static final DeferredBlock<Block> EMPEROR_SCORPION_ORE = registerEgg("emperor_scorpion_ore");
+    public static final DeferredBlock<Block> SCORPION_ORE = registerEgg("scorpion_ore");
+    public static final DeferredBlock<Block> COCKATEIL_ORE = registerEgg("cockateil_ore");
+    public static final DeferredBlock<Block> ATTACK_SQUID_ORE = registerEgg("attack_squid_ore");
+    public static final DeferredBlock<Block> WATER_DRAGON_ORE = registerEgg("water_dragon_ore");
+    public static final DeferredBlock<Block> KRAKEN_ORE = registerEgg("kraken_ore");
+    public static final DeferredBlock<Block> LIZARD_ORE = registerEgg("lizard_ore");
+    public static final DeferredBlock<Block> CEPHADROME_ORE = registerEgg("cephadrome_ore");
+    public static final DeferredBlock<Block> DRAGON_ORE = registerEgg("dragon_ore");
+    public static final DeferredBlock<Block> BEE_ORE = registerEgg("bee_ore");
+    public static final DeferredBlock<Block> TROOPER_BUG_ORE = registerEgg("trooper_bug_ore");
+    public static final DeferredBlock<Block> SPIT_BUG_ORE = registerEgg("spit_bug_ore");
+    public static final DeferredBlock<Block> OSTRICH_ORE = registerEgg("ostrich_ore");
+    public static final DeferredBlock<Block> GAZELLE_ORE = registerEgg("gazelle_ore");
+    public static final DeferredBlock<Block> CHIPMUNK_ORE = registerEgg("chipmunk_ore");
+    public static final DeferredBlock<Block> CREEPING_HORROR_ORE = registerEgg("creeping_horror_ore");
+    public static final DeferredBlock<Block> TERRIBLE_TERROR_ORE = registerEgg("terrible_terror_ore");
+    public static final DeferredBlock<Block> CLIFF_RACER_ORE = registerEgg("cliff_racer_ore");
+    public static final DeferredBlock<Block> TRIFFID_ORE = registerEgg("triffid_ore");
+    public static final DeferredBlock<Block> PITCH_BLACK_ORE = registerEgg("pitch_black_ore");
+    public static final DeferredBlock<Block> LURKING_TERROR_ORE = registerEgg("lurking_terror_ore");
+    public static final DeferredBlock<Block> GODZILLA_ORE = registerEgg("godzilla_ore");
+    public static final DeferredBlock<Block> CLOUD_SHARK_ORE = registerEgg("cloud_shark_ore");
+    public static final DeferredBlock<Block> GOLD_FISH_ORE = registerEgg("gold_fish_ore");
+    public static final DeferredBlock<Block> LEAF_MONSTER_ORE = registerEgg("leaf_monster_ore");
+    public static final DeferredBlock<Block> TSHIRT_ORE = registerEgg("tshirt_ore");
+    public static final DeferredBlock<Block> ENDER_KNIGHT_ORE = registerEgg("ender_knight_ore");
+    public static final DeferredBlock<Block> ENDER_REAPER_ORE = registerEgg("ender_reaper_ore");
+    public static final DeferredBlock<Block> HERCULES_BEETLE_ORE = registerEgg("hercules_beetle_ore");
+    public static final DeferredBlock<Block> STINKY_ORE = registerEgg("stinky_ore");
+    public static final DeferredBlock<Block> EASTER_BUNNY_ORE = registerEgg("easter_bunny_ore");
+    public static final DeferredBlock<Block> CATERKILLER_ORE = registerEgg("caterkiller_ore");
+    public static final DeferredBlock<Block> MOLENOID_ORE = registerEgg("molenoid_ore");
+    public static final DeferredBlock<Block> SEA_MONSTER_ORE = registerEgg("sea_monster_ore");
+    public static final DeferredBlock<Block> SEA_VIPER_ORE = registerEgg("sea_viper_ore");
+    public static final DeferredBlock<Block> LEON_ORE = registerEgg("leon_ore");
+    public static final DeferredBlock<Block> HAMMERHEAD_ORE = registerEgg("hammerhead_ore");
+    public static final DeferredBlock<Block> RUBBER_DUCKY_ORE = registerEgg("rubber_ducky_ore");
+    public static final DeferredBlock<Block> CRICKET_ORE = registerEgg("cricket_ore");
+    public static final DeferredBlock<Block> FROG_ORE = registerEgg("frog_ore");
+    public static final DeferredBlock<Block> SPIDER_DRIVER_ORE = registerEgg("spider_driver_ore");
+    public static final DeferredBlock<Block> CRAB_ORE = registerEgg("crab_ore");
+    public static final DeferredBlock<Block> THE_KING_ORE = registerEgg("the_king_ore");
+    public static final DeferredBlock<Block> THE_QUEEN_ORE = registerEgg("the_queen_ore");
+    public static final DeferredBlock<Block> GODZILLA_PART_ORE = registerEgg("godzilla_part_ore");
+    public static final DeferredBlock<Block> THE_KING_PART_ORE = registerEgg("the_king_part_ore");
+    public static final DeferredBlock<Block> THE_QUEEN_PART_ORE = registerEgg("the_queen_part_ore");
+
     // ——— Plants / nests / torch (gold registry names 1:1) ———
     // Crops have no block-item; seeds (ModItems) place them.
 
@@ -315,13 +393,21 @@ public final class ModBlocks {
             "ducttape",
             () -> new BlockDuctTape(BlockDuctTape.defaultProps()));
 
+    /** Gold MyRedAntBlock "Red Ant Nest" (id kept as ant_block so existing worlds keep their nests). */
     public static final DeferredBlock<Block> ANT_BLOCK = register(
-            "ant_block",
-            () -> new BlockAnt(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.DIRT)
-                    .strength(0.5f)
-                    .randomTicks()
-                    .sound(SoundType.GRAVEL)));
+            "ant_block", () -> new BlockAnt(antNestProps(), ModEntities.RED_ANT));
+    /** Gold MyAntBlock "Ant Nest" — brown ants (Utopia portal). */
+    public static final DeferredBlock<Block> BLACK_ANT_NEST = register(
+            "black_ant_nest", () -> new BlockAnt(antNestProps(), ModEntities.ANT));
+    public static final DeferredBlock<Block> RAINBOW_ANT_NEST = register(
+            "rainbow_ant_nest", () -> new BlockAnt(antNestProps(), ModEntities.RAINBOW_ANT));
+    public static final DeferredBlock<Block> UNSTABLE_ANT_NEST = register(
+            "unstable_ant_nest", () -> new BlockAnt(antNestProps(), ModEntities.UNSTABLE_ANT));
+    public static final DeferredBlock<Block> TERMITE_NEST = register(
+            "termite_nest", () -> new BlockAnt(antNestProps(), ModEntities.TERMITE));
+    /** Gold CrystalTermiteBlock — on crystal grass in the Crystal dimension. */
+    public static final DeferredBlock<Block> CRYSTAL_TERMITE_NEST = register(
+            "crystal_termite_nest", () -> new BlockAnt(antNestProps(), ModEntities.TERMITE));
 
     public static final DeferredBlock<Block> EXTREME_TORCH = register(
             "extreme_torch",
@@ -449,6 +535,14 @@ public final class ModBlocks {
     private static java.util.function.Supplier<Block> flowerPartner(String name) {
         return () -> net.minecraft.core.registries.BuiltInRegistries.BLOCK.get(
                 net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, name));
+    }
+
+    private static BlockBehaviour.Properties antNestProps() {
+        return BlockBehaviour.Properties.of()
+                .mapColor(MapColor.DIRT)
+                .strength(0.5f)
+                .randomTicks()
+                .sound(SoundType.GRAVEL);
     }
 
     private static DeferredBlock<Block> registerEgg(String name) {

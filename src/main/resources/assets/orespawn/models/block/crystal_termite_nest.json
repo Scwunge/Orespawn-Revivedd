@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "orespawn:block/crystaltermite_bottom",
+    "top": "orespawn:block/crystaltermite_top",
+    "side": "orespawn:block/crystaltermite_side"
+  }
+}

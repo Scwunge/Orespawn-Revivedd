@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:alosaurus_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:alosaurus_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:alosaurus_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:alosaurus_egg"
+  }
 }

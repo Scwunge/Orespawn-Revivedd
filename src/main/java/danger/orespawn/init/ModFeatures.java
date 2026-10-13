@@ -12,6 +12,8 @@ import danger.orespawn.world.gen.InsectPlantFeature;
 import danger.orespawn.world.gen.IslandSeedFeature;
 import danger.orespawn.world.gen.LiquidSurfaceFeature;
 import danger.orespawn.world.gen.NightmareDungeonFeature;
+import danger.orespawn.world.gen.OverworldDungeonsFeature;
+import danger.orespawn.world.gen.RubyUnderLavaFeature;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
@@ -23,8 +25,21 @@ public final class ModFeatures {
     public static final DeferredRegister<Feature<?>> FEATURES =
             DeferredRegister.create(Registries.FEATURE, Reference.MOD_ID);
 
+    /** Gold addAnts(..., 4): Overworld and Village Mania. */
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> ANT_HILL =
-            FEATURES.register("ant_hill", AntHillFeature::new);
+            FEATURES.register("ant_hill", () -> new AntHillFeature(AntHillFeature.Kind.SURFACE, 4));
+
+    /** Gold addAnts(..., 2): Mining and Chaos dimensions (more special nests). */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> ANT_HILL_RICH =
+            FEATURES.register("ant_hill_rich", () -> new AntHillFeature(AntHillFeature.Kind.SURFACE, 2));
+
+    /** Gold addNetherAnts: Red Ant Nests on netherrack. */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> NETHER_ANT_HILL =
+            FEATURES.register("nether_ant_hill", () -> new AntHillFeature(AntHillFeature.Kind.NETHER, 1));
+
+    /** Gold addCrystalTermites: Crystal Termite Nests on crystal grass. */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> CRYSTAL_TERMITE_HILL =
+            FEATURES.register("crystal_termite_hill", () -> new AntHillFeature(AntHillFeature.Kind.CRYSTAL, 1));
 
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> GENERIC_DUNGEON =
             FEATURES.register("generic_dungeon", DungeonFeature::new);
@@ -40,6 +55,14 @@ public final class ModFeatures {
     /** Gold CephadromeAltar — dungeon spawner type 34, overworld surface. */
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> CEPHADROME_ALTAR =
             FEATURES.register("cephadrome_altar", CephadromeAltarFeature::new);
+
+    /** Gold generateRuby — one ruby ore in the stone directly under lava. */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> RUBY_UNDER_LAVA =
+            FEATURES.register("ruby_under_lava", RubyUnderLavaFeature::new);
+
+    /** Gold generateSurface small Overworld structures (pools, islands, hives, igloo, ...). */
+    public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> OVERWORLD_DUNGEONS =
+            FEATURES.register("overworld_dungeons", OverworldDungeonsFeature::new);
 
     /** Gold CrystalMaze — crystal dim chunk maze at y=25 (no dungeon spawner type). */
     public static final DeferredHolder<Feature<?>, Feature<NoneFeatureConfiguration>> CRYSTAL_MAZE =

@@ -1,0 +1,16 @@
+{
+  "feature": "orespawn:ant_hill_rich",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 30
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

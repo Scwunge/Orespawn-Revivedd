@@ -1,0 +1,135 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:flower_forest"
+  ],
+  "spawners": [
+    {
+      "type": "orespawn:beaver",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "orespawn:bee",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "orespawn:boyfriend",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:butterfly",
+      "weight": 30,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:caterkiller",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "orespawn:chipmunk",
+      "weight": 8,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:cockateil",
+      "weight": 25,
+      "minCount": 5,
+      "maxCount": 10
+    },
+    {
+      "type": "orespawn:coin",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:cricket",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "orespawn:enchanted_cow",
+      "weight": 3,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "orespawn:ender_knight",
+      "weight": 4,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "orespawn:ender_reaper",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "orespawn:firefly",
+      "weight": 15,
+      "minCount": 5,
+      "maxCount": 10
+    },
+    {
+      "type": "orespawn:girlfriend",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:gold_cow",
+      "weight": 5,
+      "minCount": 2,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:hercules_beetle",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "orespawn:leaf_monster",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "orespawn:mantis",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:moth",
+      "weight": 20,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:redcow",
+      "weight": 8,
+      "minCount": 4,
+      "maxCount": 8
+    },
+    {
+      "type": "orespawn:stinkbug",
+      "weight": 10,
+      "minCount": 2,
+      "maxCount": 4
+    }
+  ]
+}

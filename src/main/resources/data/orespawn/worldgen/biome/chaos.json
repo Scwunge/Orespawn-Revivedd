@@ -54,7 +54,8 @@
       "minecraft:glow_lichen",
       "minecraft:patch_grass_plain",
       "minecraft:trees_plains",
-      "minecraft:flower_default"
+      "minecraft:flower_default",
+      "orespawn:ant_hill_rich"
     ],
     ["minecraft:freeze_top_layer"]
   ],

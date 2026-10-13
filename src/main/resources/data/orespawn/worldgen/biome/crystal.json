@@ -69,7 +69,8 @@
       "minecraft:glow_lichen",
       "minecraft:patch_grass_plain",
       "minecraft:flower_default",
-      "orespawn:crystal_decor"
+      "orespawn:crystal_decor",
+      "orespawn:crystal_termite_hill"
     ],
     [
       "minecraft:freeze_top_layer"

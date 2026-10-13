@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:camarasaurus_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:camarasaurus_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:camarasaurus_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:camarasaurus_egg"
+  }
 }

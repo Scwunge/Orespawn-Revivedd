@@ -11,6 +11,7 @@ import danger.orespawn.init.ModItems;
 import danger.orespawn.items.armor.OrespawnArmorMaterial;
 import danger.orespawn.util.Reference;
 import danger.orespawn.util.handlers.SoundsHandler;
+import danger.orespawn.world.SeasonalSpawnEvents;
 import me.scwunge.mods.portalgun.PortalGunMod;
 import me.scwunge.mods.portalgun.client.PortalGunClientMod;
 import net.neoforged.api.distmarker.Dist;
@@ -85,5 +86,6 @@ public class OreSpawnMain {
 
     private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("OreSpawn common setup.");
+        SeasonalSpawnEvents.readDate();
     }
 }

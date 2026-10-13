@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:wooded_badlands"
+  ],
+  "spawners": [
+    {
+      "type": "orespawn:scorpion",
+      "weight": 5,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:stinky",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

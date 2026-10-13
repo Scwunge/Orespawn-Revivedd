@@ -1,0 +1,12 @@
+{
+  "feature": "orespawn:crystal_termite_hill",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 40
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

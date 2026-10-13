@@ -1,0 +1,3187 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:alien_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:alien_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:alosaurus_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:alosaurus_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:baryonyx_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:baryonyx_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:beaver_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:beaver_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bird_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bird_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:brutalfly_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:brutalfly_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:camarasaurus_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:camarasaurus_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cassowary_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cassowary_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cavefisher_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cavefisher_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cow_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cow_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:creeper_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:creeper_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cryolophosaurus_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cryolophosaurus_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:doomworm_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:doomworm_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:dragonfly_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:dragonfly_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gammametroid_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gammametroid_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ghast_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ghast_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:horse_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:horse_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:kyuubi_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:kyuubi_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:largeworm_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:largeworm_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mantis_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mantis_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mediumworm_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mediumworm_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mothra_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mothra_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:nastysaurus_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:nastysaurus_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pig_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pig_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pointysaurus_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pointysaurus_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:redcow_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:redcow_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:smallworm_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:smallworm_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spyro_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spyro_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:stinkbug_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:stinkbug_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:trex_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:trex_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:velocityraptor_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:velocityraptor_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:zombie_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:zombie_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spider_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spider_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bat_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bat_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:squid_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:squid_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:chicken_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:chicken_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:skeleton_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:skeleton_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:slime_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:slime_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:zombie_pigman_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:zombie_pigman_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:enderman_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:enderman_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cave_spider_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cave_spider_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:silverfish_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:silverfish_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:magma_cube_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:magma_cube_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:witch_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:witch_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sheep_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sheep_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wolf_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wolf_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mooshroom_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:mooshroom_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ocelot_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ocelot_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:blaze_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:blaze_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wither_skeleton_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wither_skeleton_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_dragon_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_dragon_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:snow_golem_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:snow_golem_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:iron_golem_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:iron_golem_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wither_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:wither_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:villager_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:villager_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:girlfriend_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:girlfriend_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:boyfriend_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:boyfriend_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gold_cow_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gold_cow_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:enchanted_cow_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:enchanted_cow_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hydrolisc_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hydrolisc_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:basilisk_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:basilisk_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:emperor_scorpion_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:emperor_scorpion_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:scorpion_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:scorpion_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cockateil_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cockateil_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:attack_squid_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:attack_squid_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:water_dragon_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:water_dragon_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:kraken_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:kraken_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:lizard_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:lizard_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cephadrome_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cephadrome_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:dragon_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:dragon_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bee_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:bee_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:trooper_bug_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:trooper_bug_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spit_bug_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spit_bug_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ostrich_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ostrich_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gazelle_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gazelle_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:chipmunk_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:chipmunk_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:creeping_horror_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:creeping_horror_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:terrible_terror_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:terrible_terror_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cliff_racer_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cliff_racer_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:triffid_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:triffid_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pitch_black_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:pitch_black_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:lurking_terror_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:lurking_terror_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:godzilla_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:godzilla_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cloud_shark_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cloud_shark_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gold_fish_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:gold_fish_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:leaf_monster_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:leaf_monster_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:tshirt_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:tshirt_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_knight_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_knight_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_reaper_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:ender_reaper_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hercules_beetle_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hercules_beetle_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:stinky_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:stinky_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:easter_bunny_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:easter_bunny_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:caterkiller_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:caterkiller_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:molenoid_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:molenoid_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sea_monster_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sea_monster_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sea_viper_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:sea_viper_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:leon_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:leon_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hammerhead_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:hammerhead_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:rubber_ducky_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:rubber_ducky_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cricket_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:cricket_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:frog_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:frog_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spider_driver_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:spider_driver_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:crab_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:crab_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:godzilla_part_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:godzilla_part_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:the_king_part_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:the_king_part_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 4,
+            "discard_chance_on_air_exposure": 0.0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:the_queen_part_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "orespawn:the_queen_part_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

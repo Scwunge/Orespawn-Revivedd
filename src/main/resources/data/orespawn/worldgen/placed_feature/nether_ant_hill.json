@@ -1,0 +1,12 @@
+{
+  "feature": "orespawn:nether_ant_hill",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 25
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

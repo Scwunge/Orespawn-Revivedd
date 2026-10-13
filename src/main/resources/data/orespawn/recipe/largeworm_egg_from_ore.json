@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:largeworm_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:largeworm_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:largeworm_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:largeworm_egg"
+  }
 }

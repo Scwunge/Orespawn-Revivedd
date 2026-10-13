@@ -1,0 +1,68 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:stony_shore"
+  ],
+  "spawners": [
+    {
+      "type": "orespawn:boyfriend",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:cockateil",
+      "weight": 5,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:crab",
+      "weight": 1,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "orespawn:firefly",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:girlfriend",
+      "weight": 10,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:hydrolisc",
+      "weight": 5,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:ostrich",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:rubber_ducky",
+      "weight": 4,
+      "minCount": 4,
+      "maxCount": 6
+    },
+    {
+      "type": "orespawn:sea_viper",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:water_dragon",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

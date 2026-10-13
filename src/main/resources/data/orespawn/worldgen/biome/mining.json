@@ -79,7 +79,9 @@
       "orespawn:uranium_ore",
       "orespawn:titanium_ore",
       "orespawn:amethyst_ore",
-      "orespawn:ruby_ore",
+      "orespawn:mining_ruby_under_lava",
+      "orespawn:mining_lapis_large",
+      "orespawn:mining_lapis_small",
       "orespawn:salt_ore"
     ],
     [
@@ -95,7 +97,8 @@
       "minecraft:trees_windswept_hills",
       "minecraft:flower_default",
       "minecraft:patch_pumpkin",
-      "orespawn:liquid_surface"
+      "orespawn:liquid_surface",
+      "orespawn:mining_ant_hill"
     ],
     [
       "minecraft:freeze_top_layer"

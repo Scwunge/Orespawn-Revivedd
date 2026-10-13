@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:spyro_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:spyro_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:spyro_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:spyro_egg"
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:snowy_taiga"
+  ],
+  "spawners": [
+    {
+      "type": "orespawn:cephadrome",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:coin",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "orespawn:ghost",
+      "weight": 15,
+      "minCount": 5,
+      "maxCount": 10
+    },
+    {
+      "type": "orespawn:ghost_skelly",
+      "weight": 15,
+      "minCount": 5,
+      "maxCount": 10
+    },
+    {
+      "type": "orespawn:hercules_beetle",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

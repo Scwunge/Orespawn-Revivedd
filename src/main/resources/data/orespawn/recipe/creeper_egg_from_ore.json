@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:creeper_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:creeper_ore"
+    }
   ],
-  "result": { "count": 1, "id": "minecraft:creeper_spawn_egg" }
+  "result": {
+    "count": 1,
+    "id": "minecraft:creeper_spawn_egg"
+  }
 }

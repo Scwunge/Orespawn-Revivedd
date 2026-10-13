@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:mediumworm_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:mediumworm_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:mediumworm_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:mediumworm_egg"
+  }
 }

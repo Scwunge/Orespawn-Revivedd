@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:slime_ore"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:slime_spawn_egg"
+  }
+}

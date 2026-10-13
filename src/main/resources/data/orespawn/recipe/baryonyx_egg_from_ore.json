@@ -2,8 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "item": "minecraft:egg" },
-    { "item": "orespawn:baryonyx_ore" }
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "orespawn:baryonyx_ore"
+    }
   ],
-  "result": { "count": 1, "id": "orespawn:baryonyx_egg" }
+  "result": {
+    "count": 1,
+    "id": "orespawn:baryonyx_egg"
+  }
 }
