@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.3 (Minecraft 1.21.1, NeoForge)
+## 1.0.4 (Minecraft 1.21.1, NeoForge)
 
 This update brings world generation and spawning back in line with the original OreSpawn 1.7.10.
 
