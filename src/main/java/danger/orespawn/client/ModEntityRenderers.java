@@ -293,7 +293,8 @@ public final class ModEntityRenderers {
         // Projectiles
         event.registerEntityRenderer(ModEntities.THROWN_CRITTER_CAGE.get(), OreSpawnProjectileRenderers.CageRenderer::new);
         event.registerEntityRenderer(ModEntities.BETTER_FIREBALL.get(), OreSpawnProjectileRenderers.FireballRenderer::new);
-        event.registerEntityRenderer(ModEntities.BERTHA_HIT.get(), OreSpawnProjectileRenderers.BerthaHitRenderer::new);
+        // 1.7.10 RenderItemUrchin skips BerthaHit: the swing arc is invisible
+        event.registerEntityRenderer(ModEntities.BERTHA_HIT.get(), net.minecraft.client.renderer.entity.NoopRenderer::new);
         event.registerEntityRenderer(ModEntities.THROWN_ROCK.get(), ThrownRockRenderer::new);
         event.registerEntityRenderer(ModEntities.LASER_BALL.get(), LaserBallRenderer::new);
         event.registerEntityRenderer(ModEntities.WATER_BALL.get(), WaterBallRenderer::new);
