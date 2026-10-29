@@ -1,7 +1,6 @@
 package danger.orespawn.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import danger.orespawn.entity.BerthaHit;
 import danger.orespawn.entity.BetterFireball;
 import danger.orespawn.entity.EntityCage;
 import danger.orespawn.init.ModItems;
@@ -79,39 +78,6 @@ public final class OreSpawnProjectileRenderers {
         @Override
         public ResourceLocation getTextureLocation(BetterFireball entity) {
             return ResourceLocation.withDefaultNamespace("textures/item/fire_charge.png");
-        }
-    }
-
-    /** 1.7.10 RenderItemUrchin-style sprite for BerthaHit. */
-    public static class BerthaHitRenderer extends EntityRenderer<BerthaHit> {
-        private final ItemRenderer itemRenderer;
-
-        public BerthaHitRenderer(EntityRendererProvider.Context ctx) {
-            super(ctx);
-            this.itemRenderer = ctx.getItemRenderer();
-        }
-
-        @Override
-        public void render(BerthaHit entity, float yaw, float pt, PoseStack pose, MultiBufferSource buf, int light) {
-            pose.pushPose();
-            pose.scale(0.5f, 0.5f, 0.5f);
-            pose.mulPose(this.entityRenderDispatcher.cameraOrientation());
-            this.itemRenderer.renderStatic(
-                    new ItemStack(ModItems.BERTHA.get()),
-                    ItemDisplayContext.GROUND,
-                    light,
-                    OverlayTexture.NO_OVERLAY,
-                    pose,
-                    buf,
-                    entity.level(),
-                    entity.getId());
-            pose.popPose();
-            super.render(entity, yaw, pt, pose, buf, light);
-        }
-
-        @Override
-        public ResourceLocation getTextureLocation(BerthaHit entity) {
-            return ResourceLocation.fromNamespaceAndPath("orespawn", "textures/item/berthasmall.png");
         }
     }
 }

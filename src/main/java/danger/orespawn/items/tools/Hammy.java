@@ -2,6 +2,8 @@ package danger.orespawn.items.tools;
 
 import danger.orespawn.OreSpawnMain;
 import danger.orespawn.entity.BerthaHit;
+import danger.orespawn.entity.Boyfriend;
+import danger.orespawn.entity.Girlfriend;
 import danger.orespawn.init.ModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.Entity;
@@ -61,7 +63,7 @@ public class Hammy extends SwordItem {
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         // same big_bertha_pvp gate as gold Bertha (MyHammy is a Bertha subclass in 1.7)
         if (entity != null && OreSpawnMain.big_bertha_pvp == 0) {
-            if (entity instanceof Player) {
+            if (entity instanceof Player || entity instanceof Girlfriend || entity instanceof Boyfriend) {
                 return true; // cancel hit
             }
             if (entity instanceof OwnableEntity ownable && ownable.getOwner() != null) {
