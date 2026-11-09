@@ -112,12 +112,6 @@
         "maxCount": 2
       },
       {
-        "type": "orespawn:gammametroid",
-        "weight": 35,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
         "type": "orespawn:alien",
         "weight": 35,
         "minCount": 1,
@@ -134,12 +128,6 @@
         "weight": 26,
         "minCount": 1,
         "maxCount": 2
-      },
-      {
-        "type": "orespawn:spyro",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
       }
     ],
     "creature": [
@@ -166,6 +154,18 @@
         "weight": 2,
         "minCount": 1,
         "maxCount": 2
+      },
+      {
+        "type": "orespawn:gammametroid",
+        "weight": 35,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "orespawn:spyro",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "ambient": [],

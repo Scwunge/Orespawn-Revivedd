@@ -25,9 +25,17 @@
   },
   "features": [
     [],
-    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
-    ["minecraft:amethyst_geode"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
     [],
     [],
     [
@@ -49,14 +57,19 @@
       "orespawn:ruby_ore"
     ],
     [],
-    ["minecraft:spring_water", "minecraft:spring_lava"],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
     [
       "minecraft:glow_lichen",
       "minecraft:patch_grass_plain",
       "minecraft:trees_plains",
       "minecraft:flower_default"
     ],
-    ["minecraft:freeze_top_layer"]
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ],
   "spawners": {
     "monster": [
@@ -259,12 +272,6 @@
         "maxCount": 4
       },
       {
-        "type": "orespawn:leon",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "orespawn:mantis",
         "weight": 1,
         "minCount": 1,
@@ -277,10 +284,16 @@
         "maxCount": 1
       },
       {
-        "type": "orespawn:gammametroid",
-        "weight": 1,
+        "type": "orespawn:cloud_shark",
+        "weight": 2,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "orespawn:bee",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "creature": [
@@ -307,20 +320,18 @@
         "weight": 1,
         "minCount": 2,
         "maxCount": 4
-      }
-    ],
-    "ambient": [
-      {
-        "type": "orespawn:butterfly",
-        "weight": 20,
-        "minCount": 3,
-        "maxCount": 6
       },
       {
-        "type": "orespawn:moth",
-        "weight": 10,
+        "type": "orespawn:leon",
+        "weight": 1,
         "minCount": 1,
-        "maxCount": 5
+        "maxCount": 1
+      },
+      {
+        "type": "orespawn:gammametroid",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "orespawn:cockateil",
@@ -329,22 +340,10 @@
         "maxCount": 4
       },
       {
-        "type": "orespawn:firefly",
-        "weight": 15,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
         "type": "orespawn:cliff_racer",
         "weight": 30,
         "minCount": 3,
         "maxCount": 6
-      },
-      {
-        "type": "orespawn:cloud_shark",
-        "weight": 2,
-        "minCount": 1,
-        "maxCount": 1
       },
       {
         "type": "orespawn:gold_fish",
@@ -353,19 +352,7 @@
         "maxCount": 4
       },
       {
-        "type": "orespawn:fairy",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
         "type": "orespawn:baryonyx",
-        "weight": 2,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
-        "type": "orespawn:bee",
         "weight": 2,
         "minCount": 2,
         "maxCount": 4
@@ -405,6 +392,32 @@
         "weight": 1,
         "minCount": 1,
         "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "orespawn:butterfly",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:moth",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "orespawn:firefly",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "orespawn:fairy",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "axolotls": [],

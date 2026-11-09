@@ -3,6 +3,7 @@
 ## 1.0.5 (Minecraft 1.21.1, NeoForge)
 
 ### Fixed
+- Fixed mobs building up endlessly in the Utopia, Chaos, Crystal, Extreme and Village Mania dimensions. 43 mob spawn entries were listed under the wrong mob category for their biome, so those mobs were never counted towards the mob cap. Water mobs still only spawn in water.
 - Big Bertha, Slice, Royal Guardian Sword and Attitude Adjuster no longer shoot little Big Bertha pictures when you swing them. The swing hit is invisible again, like in the original OreSpawn.
 - Attitude Adjuster swings now work like the original:
   - Range, knockback and launch height use the original values.
